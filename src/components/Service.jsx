@@ -137,7 +137,7 @@ const Service = () => {
 					<CardContainer>
 						<MiniCard text="Javascript is love.Master it , you'll feel me." />
 						<MiniCard text="React makes it painless to create interactive UIs." />
-						<MiniCard text="Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser." />
+						<MiniCard text="Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine." />
 					</CardContainer>
 					<Button onClick={() => setOpen(true)}>
 						<Icon src={Play} />
