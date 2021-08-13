@@ -27,11 +27,11 @@ const Text = styled.span`
 	}
 `;
 
-const MiniCard = () => {
+const MiniCard = ({ text }) => {
 	return (
 		<Container>
 			<Image src={Search} />
-			<Text>Javascript is love. Master it , you'll feel me.</Text>
+			<Text>{text}</Text>
 		</Container>
 	);
 };
